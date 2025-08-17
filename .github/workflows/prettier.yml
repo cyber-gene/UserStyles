@@ -1,11 +1,11 @@
-name: Prettier Check
+name: Code Quality Check
 
 on:
   pull_request:
     branches: [main]
 
 jobs:
-  prettier:
+  code-quality:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,3 +23,6 @@ jobs:
 
       - name: Run Prettier check
         run: yarn format:check
+
+      - name: Run CSS lint
+        run: yarn lint
