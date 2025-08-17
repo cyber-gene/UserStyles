@@ -1,0 +1,14 @@
+{
+  "name": "UserStyles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "author": "cybergene <cybergene@protonmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}

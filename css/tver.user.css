@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name           tver.jp
+@namespace      cybergene.dev/userstyles
+@version        1.0.0
+@description    user style for tver.jp
+@author         cybergene
+@source         https://github.com/cyber-gene/UserStyles
+@updateURL      https://raw.githubusercontent.com/cyber-gene/UserStyles/main/csstver.user.css
+@updateURL      https://raw.githubusercontent.com/cyber-gene/UserStyles/main/css/tver.user.css
+@downloadURL    https://raw.githubusercontent.com/cyber-gene/UserStyles/main/css/tver.user.css
+==/UserStyle== */
+
+@-moz-document domain("tver.jp") {
+  [class*='Episode_container__'],
+  [class*='live-page-main_layout__'] {
+    max-width: 2000px;
+  }
+  [class*='PlayerLayout_host__'],
+  [class*='player_host__'] {
+    max-width: 2000px;
+  }
+}
