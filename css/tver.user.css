@@ -12,6 +12,7 @@
   [class*='live-page-main_layout__'] {
     max-width: 2000px;
   }
+
   [class*='PlayerLayout_host__'],
   [class*='player_host__'] {
     max-width: 2000px;
