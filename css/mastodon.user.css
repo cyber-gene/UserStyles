@@ -8,8 +8,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("mstdn.ikebuku.ro") {
-    /* ここにコードを挿入... */
-    .custom-emoji {
-        width: auto !IMPORTANT;
-    }
+  .custom-emoji {
+    width: auto !important;
+  }
 }
