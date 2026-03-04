@@ -16,6 +16,7 @@ yarn format:check  # Check formatting without writing
 This is a collection of UserStyle CSS files (`.user.css`) for browser extensions like Stylus. Each file targets a specific website using `@-moz-document domain("...")` blocks.
 
 All styles live in `css/` and follow the UserStyle metadata format:
+
 ```css
 /* ==UserStyle==
 @name           site-name
